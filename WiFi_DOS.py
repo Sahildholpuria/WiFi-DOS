@@ -41,12 +41,13 @@ def check_for_essid(essid, lst):
     return check_status
 
 # Basic user interface header
-print(r"""______            _     _  ______                 _           _ 
-|  _  \          (_)   | | | ___ \               | |         | |
-| | | |__ ___   ___  __| | | |_/ / ___  _ __ ___ | |__   __ _| |
-| | | / _` \ \ / / |/ _` | | ___ \/ _ \| '_ ` _ \| '_ \ / _` | |
-| |/ / (_| |\ V /| | (_| | | |_/ / (_) | | | | | | |_) | (_| | |
-|___/ \__,_| \_/ |_|\__,_| \____/ \___/|_| |_| |_|_.__/ \__,_|_|""")
+print(r"""
+__        ___ _____ _       ____   ___  ____  
+\ \      / (_)  ___(_)     |  _ \ / _ \/ ___| 
+ \ \ /\ / /| | |_  | |_____| | | | | | \___ \ 
+  \ V  V / | |  _| | |_____| |_| | |_| |___) |
+   \_/\_/  |_|_|   |_|     |____/ \___/|____/ 
+                                              """)
 print("\n****************************************************************")
 print("\n* Copyright of David Bombal, 2021                              *")
 print("\n* https://www.davidbombal.com                                  *")
@@ -156,7 +157,7 @@ try:
                             # Every field where an ESSID is specified will be added to the list.
                             elif check_for_essid(row["ESSID"], active_wireless_networks):
                                 active_wireless_networks.append(row)
-.
+
         print("Scanning. Press Ctrl+C when you want to select which wireless network you want to attack.\n")
         print("No |\tBSSID              |\tChannel|\tESSID                         |")
         print("___|\t___________________|\t_______|\t______________________________|")
