@@ -50,8 +50,8 @@ __        ___ _____ _       ____   ___  ____
                                               """)
 print("\n****************************************************************")
 print("\n* Copyright of David Bombal, 2021                              *")
-print("\n* https://www.davidbombal.com                                  *")
-print("\n* https://www.youtube.com/davidbombal                          *")
+print("\n* https://www.sahildholpuria.tech                              *")
+print("\n* https://www.youtube.com/channel/UCNg-dM3Ynge55bwOWT2daoQ                          *")
 print("\n****************************************************************")
 
 
